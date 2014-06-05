@@ -1,0 +1,10 @@
+#define CMD_GETVERSION	      0x10
+#define CMD_READY             0x20
+#define CMD_GETBUTTONS        0x21
+#define CMD_DRAWLINE	      0x40
+#define CMD_DRAWRECTANGLE     0x41
+#define CMD_DRAWIMAGE         0x42
+#define CMD_CLEAR             0x43
+#define CMD_PRINTTEXT         0x44
+#define CMD_DRAWCIRCLE        0x45
+#define CMD_DRAWFILLCIRCLE    0x46
