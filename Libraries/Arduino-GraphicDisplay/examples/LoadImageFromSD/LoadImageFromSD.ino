@@ -25,7 +25,7 @@ void setup() {
   do {
     delay(50);
   }
-  while(display.isReady() != 0x21);
+  while(!display.isReady());
   //get firmware version
   int ver = display.getVersion();
   switch(ver)
